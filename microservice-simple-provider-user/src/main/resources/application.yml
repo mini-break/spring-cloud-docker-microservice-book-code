@@ -2,7 +2,7 @@ server:
   port: 8000
 spring:
   jpa:
-    generate-ddl: false
+    generate-ddl: false # Initialize the schema on startup
     show-sql: true
     hibernate:
       ddl-auto: none

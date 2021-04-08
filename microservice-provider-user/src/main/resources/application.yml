@@ -23,4 +23,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: true # 将自己的IP注册到Eureka Server

@@ -9,6 +9,22 @@
 
 
   <modules>
+    <!--1-->
+    <module>microservice-simple-provider-user</module>
+    <!--2-->
+    <module>microservice-simple-consumer-movie</module>
+    <!--3-->
+    <module>microservice-discovery-eureka</module>
+    <!--4-->
+    <module>microservice-provider-user</module>
+    <!--5-->
+    <module>microservice-discovery-eureka-ha</module>
+    <!--6-->
+    <module>microservice-discovery-eureka-authenticating</module>
+    <!--7-->
+    <module>microservice-provider-user-my-metadata</module>
+    <!--8-->
+    <module>microservice-consumer-movie-understanding-metadata</module>
     <module>microservice-config-client</module>
     <module>microservice-config-client-authenticating</module>
     <module>microservice-config-client-eureka</module>
@@ -35,11 +51,7 @@
     <module>microservice-consumer-movie-ribbon</module>
     <module>microservice-consumer-movie-ribbon-hystrix</module>
     <module>microservice-consumer-movie-ribbon-hystrix-turbine-mq</module>
-    <module>microservice-consumer-movie-understanding-metadata</module>
     <module>microservice-consumer-movie-without-eureka</module>
-    <module>microservice-discovery-eureka</module>
-    <module>microservice-discovery-eureka-authenticating</module>
-    <module>microservice-discovery-eureka-ha</module>
     <module>microservice-file-upload</module>
     <module>microservice-gateway-zuul</module>
     <module>microservice-gateway-zuul-aggregation</module>
@@ -51,15 +63,11 @@
     <module>microservice-hystrix-dashboard</module>
     <module>microservice-hystrix-turbine</module>
     <module>microservice-hystrix-turbine-mq</module>
-    <module>microservice-provider-user</module>
     <module>microservice-provider-user-ip</module>
     <module>microservice-provider-user-multiple-params</module>
-    <module>microservice-provider-user-my-metadata</module>
     <module>microservice-provider-user-with-auth</module>
     <module>microservice-sidecar</module>
     <module>microservice-sidecar-client-ribbon</module>
-    <module>microservice-simple-consumer-movie</module>
-    <module>microservice-simple-provider-user</module>
     <module>microservice-consumer-movie-ribbon-customizing</module>
     <module>microservice-consumer-movie-ribbon-customizing-properties</module>
     <module>additional-microservice-consumer-movie-ribbon-hystrix-get-the-exception</module>
